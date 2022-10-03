@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+    <fieldset>
+<legend>Fale conosco</legend>
+<body>
+    <div class="login" width="100px">
+            <form id="login1" method="post" action="">
+                <label><b>Nome
+                </b>
+            </label>
+            <input type="text" name="Seu Nome" id="Seu Nome" placeholder="Nome">
+            <br><br>
+            <label>
+                <b>E-mail</b>
+            </label>
+            <input type="text" name="E-mail" id="E-mail" placeholder="E-mail">
+            <br><br>
+            <br><br>
+            <label>Comentário</label>
+            <textarea></textarea><br><br>
+
+            <label for="ftipo">Tipo : </label>
+            <select name="tipo" id="tipo">
+                <option value="Sugestão">Sugestão</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Duvidas">Duvidas</option>
+                <option value="Outros">Outros</option>
+            </select>
+            <br><br>
+            <button type="button">
+                Enviar
+            </button>
+            <button type="button">
+                Resetar
+            </button>
+
+    
+</body>
